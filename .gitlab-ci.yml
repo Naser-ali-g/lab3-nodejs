@@ -9,7 +9,7 @@ variables:
    MONGO_URI: 'mongodb://k8:30017/'
    MONGO_DB_NAME: superData
    MONGO_USERNAME: root
-   MONGO_PASSWORD: secretpassword
+   MONGO_PASSWORD: secretpassword  #we do not put it hardcoded like that , we put it in masked variable
 stages:
   - test
   
